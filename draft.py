@@ -26,3 +26,10 @@ class Solution:
 solution = Solution()
 re = solution.addTwoNumbers(ListNode(3), ListNode(2))
 print(re.val)
+
+from collections import defaultdict
+
+ans = defaultdict(int)
+
+print(ans[1])
+print(ans)
