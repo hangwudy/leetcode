@@ -4,6 +4,8 @@ from collections import Counter
 
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
+        if not s or not words:
+            return []
         n = len(s)
         one_word = len(words[0])
         n_word = one_word * len(words)
