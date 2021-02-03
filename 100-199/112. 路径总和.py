@@ -27,3 +27,10 @@ class Solution:
                 dq_tree.append(node.right)
                 dq_val.append(tmp + node.right.val)
         return False
+
+    def hasPathSum_dfs(self, root: TreeNode, sum: int) -> bool:
+        if not root:
+            return False
+        if not root.left and not root.right:
+            return sum == root.val
+        return self.hasPathSum_dfs(root.left, sum - root.val) or self.hasPathSum_dfs(root.right, sum - root.val)
