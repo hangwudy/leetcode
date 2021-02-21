@@ -11,7 +11,6 @@ class Solution:
         while left < n and right < n:
             bisect.insort(span, nums[right])
             if abs(span[0] - span[-1]) > limit:
-                # max_len = max(right - left, max_len)
                 span.remove(nums[left])
                 left += 1
             max_len = max(max_len, right - left + 1)
