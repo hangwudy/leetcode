@@ -26,10 +26,10 @@ public:
     }
 };
 
-int main() {
-    Solution so;
-    vector<string> res = so.fizzBuzz(15);
-    for (auto item: res) {
-        cout << item << endl;
-    }
-}
+//int main() {
+//    Solution so;
+//    vector<string> res = so.fizzBuzz(15);
+//    for (auto item: res) {
+//        cout << item << endl;
+//    }
+//}
