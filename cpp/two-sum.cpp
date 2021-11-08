@@ -22,13 +22,13 @@ public:
     }
 };
 
-int main() {
-    Solution solution;
-    vector<int> nums = {3, 2, 4};
-    int target = 6;
-    vector<int> res = solution.twoSum(nums, target);
-    for (auto a: res) {
-        cout<<(a)<<" ";
-    }
-    cout<<endl;
-}
+//int main() {
+//    Solution solution;
+//    vector<int> nums = {3, 2, 4};
+//    int target = 6;
+//    vector<int> res = solution.twoSum(nums, target);
+//    for (auto a: res) {
+//        cout<<(a)<<" ";
+//    }
+//    cout<<endl;
+//}
